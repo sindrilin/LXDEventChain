@@ -15,6 +15,12 @@
 		FCE1F14D1C2EE1C3001A4E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE1F14B1C2EE1C3001A4E9B /* LaunchScreen.storyboard */; };
 		FCE1F1581C2EE1C3001A4E9B /* LXDEventChainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE1F1571C2EE1C3001A4E9B /* LXDEventChainTests.m */; };
 		FCE1F1631C2EE1C4001A4E9B /* LXDEventChainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE1F1621C2EE1C4001A4E9B /* LXDEventChainUITests.m */; };
+		FCE1F1721C2EE1EA001A4E9B /* UIView+LXDEventDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE1F1711C2EE1EA001A4E9B /* UIView+LXDEventDebug.m */; };
+		FCE1F1751C2EE2B9001A4E9B /* AView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE1F1741C2EE2B9001A4E9B /* AView.m */; };
+		FCE1F1781C2EE2C7001A4E9B /* BView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE1F1771C2EE2C7001A4E9B /* BView.m */; };
+		FCE1F17B1C2EE2EA001A4E9B /* CView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE1F17A1C2EE2EA001A4E9B /* CView.m */; };
+		FCE1F17E1C2EE348001A4E9B /* DView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE1F17D1C2EE348001A4E9B /* DView.m */; };
+		FCE7AEB51C30170200E69479 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE7AEB41C30170200E69479 /* CircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		FCE1F15E1C2EE1C4001A4E9B /* LXDEventChainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXDEventChainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE1F1621C2EE1C4001A4E9B /* LXDEventChainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXDEventChainUITests.m; sourceTree = "<group>"; };
 		FCE1F1641C2EE1C4001A4E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE1F1701C2EE1EA001A4E9B /* UIView+LXDEventDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LXDEventDebug.h"; sourceTree = "<group>"; };
+		FCE1F1711C2EE1EA001A4E9B /* UIView+LXDEventDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LXDEventDebug.m"; sourceTree = "<group>"; };
+		FCE1F1731C2EE2B9001A4E9B /* AView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AView.h; sourceTree = "<group>"; };
+		FCE1F1741C2EE2B9001A4E9B /* AView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AView.m; sourceTree = "<group>"; };
+		FCE1F1761C2EE2C7001A4E9B /* BView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BView.h; sourceTree = "<group>"; };
+		FCE1F1771C2EE2C7001A4E9B /* BView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BView.m; sourceTree = "<group>"; };
+		FCE1F1791C2EE2EA001A4E9B /* CView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CView.h; sourceTree = "<group>"; };
+		FCE1F17A1C2EE2EA001A4E9B /* CView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CView.m; sourceTree = "<group>"; };
+		FCE1F17C1C2EE348001A4E9B /* DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DView.h; sourceTree = "<group>"; };
+		FCE1F17D1C2EE348001A4E9B /* DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DView.m; sourceTree = "<group>"; };
+		FCE7AEB31C30170200E69479 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		FCE7AEB41C30170200E69479 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +128,18 @@
 				FCE1F14B1C2EE1C3001A4E9B /* LaunchScreen.storyboard */,
 				FCE1F14E1C2EE1C3001A4E9B /* Info.plist */,
 				FCE1F13D1C2EE1C3001A4E9B /* Supporting Files */,
+				FCE1F1701C2EE1EA001A4E9B /* UIView+LXDEventDebug.h */,
+				FCE1F1711C2EE1EA001A4E9B /* UIView+LXDEventDebug.m */,
+				FCE1F1731C2EE2B9001A4E9B /* AView.h */,
+				FCE1F1741C2EE2B9001A4E9B /* AView.m */,
+				FCE1F1761C2EE2C7001A4E9B /* BView.h */,
+				FCE1F1771C2EE2C7001A4E9B /* BView.m */,
+				FCE1F1791C2EE2EA001A4E9B /* CView.h */,
+				FCE1F17A1C2EE2EA001A4E9B /* CView.m */,
+				FCE1F17C1C2EE348001A4E9B /* DView.h */,
+				FCE1F17D1C2EE348001A4E9B /* DView.m */,
+				FCE7AEB31C30170200E69479 /* CircleView.h */,
+				FCE7AEB41C30170200E69479 /* CircleView.m */,
 			);
 			path = LXDEventChain;
 			sourceTree = "<group>";
@@ -271,7 +301,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCE1F1451C2EE1C3001A4E9B /* ViewController.m in Sources */,
+				FCE1F17E1C2EE348001A4E9B /* DView.m in Sources */,
+				FCE7AEB51C30170200E69479 /* CircleView.m in Sources */,
 				FCE1F1421C2EE1C3001A4E9B /* AppDelegate.m in Sources */,
+				FCE1F17B1C2EE2EA001A4E9B /* CView.m in Sources */,
+				FCE1F1721C2EE1EA001A4E9B /* UIView+LXDEventDebug.m in Sources */,
+				FCE1F1781C2EE2C7001A4E9B /* BView.m in Sources */,
+				FCE1F1751C2EE2B9001A4E9B /* AView.m in Sources */,
 				FCE1F13F1C2EE1C3001A4E9B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LXDEventChain/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Matches.com.LXDEventChain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LXDEventChain/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Matches.com.LXDEventChain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +534,7 @@
 				FCE1F1691C2EE1C4001A4E9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCE1F16A1C2EE1C4001A4E9B /* Build configuration list for PBXNativeTarget "LXDEventChainTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +543,7 @@
 				FCE1F16C1C2EE1C4001A4E9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCE1F16D1C2EE1C4001A4E9B /* Build configuration list for PBXNativeTarget "LXDEventChainUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +552,7 @@
 				FCE1F16F1C2EE1C4001A4E9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
